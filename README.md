@@ -8,7 +8,7 @@ This project uses Terraform to provision and manage Azure infrastructure in a mo
 - Azure CLI authenticated (`az login`)
 - A valid Azure Subscription ID
 
-# Pass your Subscription ID with powershell by running below command in Powershell (Best not to put it in code)
+### Pass your Subscription ID with powershell by running below command in Powershell (Best not to put it in code)
 $env:ARM_SUBSCRIPTION_ID = "new-subscription-id"
 
 ### 1. Clone the Repository
